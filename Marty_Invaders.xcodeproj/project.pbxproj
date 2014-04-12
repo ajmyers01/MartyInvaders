@@ -17,13 +17,16 @@
 		D6397A1A18286DBA00FFB22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6397A1818286DBA00FFB22F /* Main.storyboard */; };
 		D6397A1D18286DBA00FFB22F /* Space_invadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6397A1C18286DBA00FFB22F /* Space_invadersViewController.m */; };
 		D6397A2018286DBA00FFB22F /* Space_invadersMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D6397A1F18286DBA00FFB22F /* Space_invadersMyScene.m */; };
-		D6397A2218286DBA00FFB22F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D6397A2118286DBA00FFB22F /* Spaceship.png */; };
 		D6397A2418286DBA00FFB22F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6397A2318286DBA00FFB22F /* Images.xcassets */; };
 		D6397A2B18286DBA00FFB22F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6397A2A18286DBA00FFB22F /* XCTest.framework */; };
 		D6397A2C18286DBA00FFB22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6397A0418286DBA00FFB22F /* Foundation.framework */; };
 		D6397A2D18286DBA00FFB22F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6397A0818286DBA00FFB22F /* UIKit.framework */; };
 		D6397A3518286DBA00FFB22F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6397A3318286DBA00FFB22F /* InfoPlist.strings */; };
 		D6397A3718286DBA00FFB22F /* Marty_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6397A3618286DBA00FFB22F /* Marty_InvadersTests.m */; };
+		D6397A4418286F0500FFB22F /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = D6397A4118286F0500FFB22F /* background-music-aac.caf */; };
+		D6397A4518286F0500FFB22F /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = D6397A4218286F0500FFB22F /* pew-pew-lei.caf */; };
+		D6397A4618286F0500FFB22F /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D6397A4318286F0500FFB22F /* sprites.atlas */; };
+		D6397A491828757B00FFB22F /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D6397A481828757B00FFB22F /* GameOverScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,13 +56,17 @@
 		D6397A1C18286DBA00FFB22F /* Space_invadersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_invadersViewController.m; sourceTree = "<group>"; };
 		D6397A1E18286DBA00FFB22F /* Space_invadersMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Space_invadersMyScene.h; sourceTree = "<group>"; };
 		D6397A1F18286DBA00FFB22F /* Space_invadersMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_invadersMyScene.m; sourceTree = "<group>"; };
-		D6397A2118286DBA00FFB22F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		D6397A2318286DBA00FFB22F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D6397A2918286DBA00FFB22F /* Marty_InvadersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Marty_InvadersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6397A2A18286DBA00FFB22F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D6397A3218286DBA00FFB22F /* Marty_InvadersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marty_InvadersTests-Info.plist"; sourceTree = "<group>"; };
 		D6397A3418286DBA00FFB22F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6397A3618286DBA00FFB22F /* Marty_InvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Marty_InvadersTests.m; sourceTree = "<group>"; };
+		D6397A4118286F0500FFB22F /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		D6397A4218286F0500FFB22F /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		D6397A4318286F0500FFB22F /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		D6397A471828757B00FFB22F /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		D6397A481828757B00FFB22F /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +135,10 @@
 				D6397A1C18286DBA00FFB22F /* Space_invadersViewController.m */,
 				D6397A1E18286DBA00FFB22F /* Space_invadersMyScene.h */,
 				D6397A1F18286DBA00FFB22F /* Space_invadersMyScene.m */,
-				D6397A2118286DBA00FFB22F /* Spaceship.png */,
+				D6397A471828757B00FFB22F /* GameOverScene.h */,
+				D6397A481828757B00FFB22F /* GameOverScene.m */,
+				D6397A4018286F0500FFB22F /* Sounds */,
+				D6397A4318286F0500FFB22F /* sprites.atlas */,
 				D6397A2318286DBA00FFB22F /* Images.xcassets */,
 				D6397A0D18286DBA00FFB22F /* Supporting Files */,
 			);
@@ -162,6 +172,15 @@
 				D6397A3318286DBA00FFB22F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6397A4018286F0500FFB22F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D6397A4118286F0500FFB22F /* background-music-aac.caf */,
+				D6397A4218286F0500FFB22F /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6397A4618286F0500FFB22F /* sprites.atlas in Resources */,
+				D6397A4418286F0500FFB22F /* background-music-aac.caf in Resources */,
 				D6397A1118286DBA00FFB22F /* InfoPlist.strings in Resources */,
 				D6397A2418286DBA00FFB22F /* Images.xcassets in Resources */,
-				D6397A2218286DBA00FFB22F /* Spaceship.png in Resources */,
 				D6397A1A18286DBA00FFB22F /* Main.storyboard in Resources */,
+				D6397A4518286F0500FFB22F /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6397A491828757B00FFB22F /* GameOverScene.m in Sources */,
 				D6397A1D18286DBA00FFB22F /* Space_invadersViewController.m in Sources */,
 				D6397A2018286DBA00FFB22F /* Space_invadersMyScene.m in Sources */,
 				D6397A1318286DBA00FFB22F /* main.m in Sources */,
@@ -477,6 +499,7 @@
 				D6397A3C18286DBA00FFB22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6397A3D18286DBA00FFB22F /* Build configuration list for PBXNativeTarget "Marty_InvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +508,7 @@
 				D6397A3F18286DBA00FFB22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
